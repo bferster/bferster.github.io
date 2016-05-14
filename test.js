@@ -22,11 +22,11 @@
     var descriptor = {
         blocks: [
             // Block type, block name, function name
-            ['w', 'Give me a Pic', 'catpic'],
+            ['w', 'See Falab person', 'gpic'],
         ],
 		url: 'https://github.com/bferster'
     };
 
     // Register the extension
-    ScratchExtensions.register('CatX', descriptor, ext);
-})({});
+    ScratchExtensions.register('FabLab', descriptor, ext);
+})({}
