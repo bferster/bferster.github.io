@@ -14,7 +14,7 @@
     };
 
     ext.catpic = function() {
-		var randomUrl = "http://thecatapi.com/api/images/get?format=src" ;
+		var randomUrl = "http://curry.virginia.edu/uploads/highResImages/Bull_Glen_hi-res.jpg" ;
         window.open(randomUrl, '_blank');
     };
 
