@@ -14,7 +14,7 @@
     };
 
     ext.gpic = function() {
-		var randomUrl = "http://curry.virginia.edu/uploads/highResImages/Bull_Glen_hi-res.jpg" ;
+		var randomUrl = "http://curry.virginia.edu/research/projects/lab-school-for-advanced-manufacturing-technologies" ;
         window.open(randomUrl, '_blank');
     };
 
@@ -22,11 +22,11 @@
     var descriptor = {
         blocks: [
             // Block type, block name, function name
-            ['w', 'See Falab person', 'gpic'],
+            ['w', 'Go to Lab School', 'gpic'],
         ],
 		url: 'https://github.com/bferster'
     };
 
     // Register the extension
-    ScratchExtensions.register('FabLab', descriptor, ext);
+    ScratchExtensions.register('UVA Lab School', descriptor, ext);
 })({});
