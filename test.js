@@ -13,7 +13,7 @@
         return {status: 2, msg: 'Ready'};
     };
 
-    ext.catpic = function() {
+    ext.gpic = function() {
 		var randomUrl = "http://curry.virginia.edu/uploads/highResImages/Bull_Glen_hi-res.jpg" ;
         window.open(randomUrl, '_blank');
     };
@@ -29,4 +29,4 @@
 
     // Register the extension
     ScratchExtensions.register('FabLab', descriptor, ext);
-})({}
+})({});
